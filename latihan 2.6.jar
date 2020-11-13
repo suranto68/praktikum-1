@@ -1,0 +1,11 @@
+public class BebekBeraksi {
+public static void main (String[] args){
+Bebek bebekku = new Bebek(); //membuat object bebekku dari class bebek
+bebekku.nama = "Donald Duck"; //terbukti object bebekku mewarisi attribut nama dari class Burung
+bebekku.warna = "Coklat";
+System.out.println("Bebek ini bernama "+bebekku.nama+" dan warnanya "+bebekku.warna);
+bebekku.tidur(); //terbukti object bebekku mewarisi method tidur nama dari class Burung
+bebekku.kaki ="berselaput"; //memanggil object kaki dan menset nilainya
+bebekku.berenang();//memanggil method berenang object bebekku
+}
+}
